@@ -1,0 +1,51 @@
+.event-list {
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+.event-list article {
+    background: white;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.event-list article a {
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid #da552f;
+    background: none;
+    margin-top: 10px;
+    color: #da552f;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+.event-list article a:hover {
+    background: #da552f;
+    color: white;
+}
+.event-list .action button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background: #da552f;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.event-list .action button[disabled] {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.event-list .action button:hover {
+    opacity: 0.7%;
+}
+.event-list .action button[disabled]:hover{
+    opacity: 0.5;
+}
